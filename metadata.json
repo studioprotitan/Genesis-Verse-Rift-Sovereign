@@ -1,0 +1,8 @@
+{
+  "name": "Genesis Verse: Rift Sovereign",
+  "description": "Interactive augmented lore maps, infographics, and tactical blueprints catalyzed by the Gemini engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

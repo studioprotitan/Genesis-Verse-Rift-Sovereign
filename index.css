@@ -1,0 +1,133 @@
+/* Standard custom fonts */
+.font-sans {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif !important;
+}
+
+.font-display {
+  font-family: "Space Grotesk", sans-serif !important;
+}
+
+.font-mono {
+  font-family: "Fira Code", "JetBrains Mono", ui-monospace, monospace !important;
+}
+
+/* Custom cinematic animations for the Entropy Engine portal */
+@keyframes pulseAmbientOrange {
+  0%, 100% { filter: blur(120px) opacity(0.15); transform: scale(1) translate(0, 0); }
+  50% { filter: blur(140px) opacity(0.3); transform: scale(1.1) translate(20px, -10px); }
+}
+
+@keyframes pulseAmbientBlue {
+  0%, 100% { filter: blur(120px) opacity(0.15); transform: scale(1) translate(0, 0); }
+  50% { filter: blur(140px) opacity(0.35); transform: scale(1.15) translate(-20px, 15px); }
+}
+
+.ambient-glow-orange {
+  animation: pulseAmbientOrange 12s ease-in-out infinite;
+}
+
+.ambient-glow-blue {
+  animation: pulseAmbientBlue 15s ease-in-out infinite;
+}
+
+/* CRT scanlines effect */
+.crt-overlay::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 3px, 3px 100%;
+  pointer-events: none;
+  opacity: 0.45;
+}
+
+/* Technical blueprint grids */
+.blueprint-grid {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+.blueprint-grid-fine {
+  background-size: 8px 8px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.007) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.007) 1px, transparent 1px);
+}
+
+/* Custom scrollbars */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Immersive critical-power brownout screen flicker & desaturation animations */
+@keyframes powerFlicker {
+  0%, 100% {
+    filter: saturate(0.25) brightness(0.8) contrast(0.95) drop-shadow(0 0 10px rgba(239, 68, 68, 0.05));
+    opacity: 0.95;
+  }
+  4% {
+    filter: saturate(0.08) brightness(0.55) contrast(0.8) drop-shadow(0 0 5px rgba(239, 68, 68, 0.02));
+    opacity: 0.82;
+  }
+  6% {
+    filter: saturate(0.35) brightness(0.92) contrast(1.05) drop-shadow(0 0 15px rgba(239, 68, 68, 0.1));
+    opacity: 0.98;
+  }
+  24% {
+    filter: saturate(0.25) brightness(0.8) contrast(0.95);
+    opacity: 0.95;
+  }
+  26% {
+    filter: saturate(0.02) brightness(0.4) contrast(0.7) drop-shadow(0 0 2px rgba(0, 0, 0, 0.4));
+    opacity: 0.65;
+  }
+  28% {
+    filter: saturate(0.32) brightness(0.88) contrast(1);
+    opacity: 0.96;
+  }
+  58% {
+    filter: saturate(0.22) brightness(0.78) contrast(0.92);
+    opacity: 0.93;
+  }
+  60% {
+    filter: saturate(0.05) brightness(0.5) contrast(0.8);
+    opacity: 0.74;
+  }
+  62% {
+    filter: saturate(0.28) brightness(0.85) contrast(0.96);
+    opacity: 0.95;
+  }
+  86% {
+    filter: saturate(0.25) brightness(0.8) contrast(0.95);
+    opacity: 0.95;
+  }
+  88% {
+    filter: saturate(0.05) brightness(0.45) contrast(0.75);
+    opacity: 0.7;
+  }
+  90% {
+    filter: saturate(0.3) brightness(0.85) contrast(0.95);
+    opacity: 0.96;
+  }
+}
+
+.power-critical-flicker {
+  animation: powerFlicker 6.5s infinite;
+  transition: filter 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+

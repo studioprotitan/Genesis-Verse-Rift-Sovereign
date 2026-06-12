@@ -1,0 +1,72 @@
+[
+  {
+    "id": "vault-09",
+    "title": "Guild Vault 09 Scrap Log",
+    "source": "Lower Abyssum Slag Carrier",
+    "category": "Corporate Conspiracy",
+    "targetCharacter": "War Witch",
+    "secureLevel": "RESTRICTED",
+    "date": "Cycle 844.12",
+    "rawText": "ABYSSUM CORE TEMPERATURE EXCEEDING NOMINAL SAFETY LIMITS. Reactor amber-wings were secretly relocated to lower geothermic sink basins. Unauthorized seismic activities: resonant frequencies at exactly 8.4Hz detected in slag pipelines. Security warns Mother-Founders of the Amber Sisterhood are employing acoustic amplifiers to bypass corporate encryption. Key identifiers detected: SYS_AMBER_CO_REF_918, ENTR_ENG_ACT_009. Sisterhood threat rating escalated to LEVEL S. Guild Command recommends purging Sector 7 vents immediately using thermal siphons."
+  },
+  {
+    "id": "chronicle-leaks",
+    "title": "Sector 9 Yellow Lantern Notes",
+    "source": "Underground Print Broadcast #41",
+    "category": "Occult Anomaly",
+    "targetCharacter": "Jane District",
+    "secureLevel": "CLASSIFIED",
+    "date": "Cycle 844.75",
+    "rawText": "WARNING TO SECTOR 9 CITIZENS: The streetlamps appearing along the Shibuya District intersections are NOT municipal assets. They draw zero power, instead growing crystallized silver structures out of the wet brick joints. Bioplate photographs developed using reactive silver-halide film confirm thin metallic fibers linking shadows to water sewer drainage vaults containing industrial bio-slag. Visual observation triggers neural burning closely synchronized with Shibuya Temple’s low resonance sweeps. Mutagen C-9195 is active. Do not make direct eye-contact with the yellow glow; shadows are being mapped by unseen entities in the smog."
+  },
+  {
+    "id": "skyjoust-rules",
+    "title": "Aether Knight Tournament Decorum",
+    "source": "Royal Ministry of Sky Gladiators",
+    "category": "Regulatory Code",
+    "targetCharacter": "Arenas of Echelon",
+    "secureLevel": "PUBLIC",
+    "date": "Cycle 148",
+    "rawText": "TOURNAMENT CODEX FOR THE SKY-CORE INVITATIONAL. Active mounted combatants must adjust robotic horse stabilization clamps to stay below 24 Tesla maximum force unless performing horizontal wall-runs above airspeed of 120km/h over Echelon. Plasma-tipped jousting lances are restricted to 5.4 kilojoules kinetic deflection discharge, intended purely for mecha shield depletion. Violators breaching aether-core limits automatically forfeit eligibility for the Sky-Pinnacle Laurel. Cautionary warning to all pilots: localized micro-singularities have been reported in Sector Gamma due to rift-beast tremors; keep all gravity anchors set to Grade V."
+  },
+  {
+    "id": "renegade-scavenger",
+    "title": "The Amber-Core Weave Protocols",
+    "source": "Foundry Command Sub-Basement",
+    "category": "Combat Protocol",
+    "targetCharacter": "War Witch",
+    "secureLevel": "CONFIDENTIAL",
+    "date": "Cycle 843.90",
+    "rawText": "FOR DRILL-PILOT TRANSMISSION ONLY. Resonance calibrators are fully functioning. System signals are now successfully modulated between 8Hz and 12Hz, shielding our low-frequency communications. All active Sisterhood pilots must carry insulated copper-wrapped polearms to redirect seismic rebound during core impacts. Thermal siphons in the reserve amber batteries are unstable; manual venting must be activated using valve 12-B. Heavy corporate guard bots are vulnerable to these ultrasonic waves. Broadcasters must play the Lost Chorus sequence immediately on combat contact to reset hostile mecha subsystems."
+  },
+  {
+    "id": "shroud-stalker-intel",
+    "title": "Sentinel Threat Dossier: Stalkers",
+    "source": "Rogue Netrunner Memory Core",
+    "category": "Hostile Biology",
+    "targetCharacter": "Jane District",
+    "secureLevel": "RESTRICTED",
+    "date": "Cycle 844.40",
+    "rawText": "DANGER INDEX: CRITICAL. Corporate tactical units have deployed Biomechanical Shroud-Stalkers to Sectors 8 through 11. Built from flexible carbon-molded graphite mesh frames, these quadruped sentinel devices absorb 98.5% of scanning laser waves, turning them nearly invisible in stormy shadows. Carbon-fiber jaws slide through sewer pathways by liquefying into semi-solid mutagens. Special alert: EM fields block traditional paper press broadcasts within 30 meters. Vulnerability: optical nodes rely on dark-adapted camera grids; high-intensity neon yellow lamp flash overrides core processors. Seek tunnel exits immediately."
+  },
+  {
+    "id": "rift-beast-awakening",
+    "title": "Aether Rift Diagnostics",
+    "source": "Royal Scriptorium Station",
+    "category": "Cosmic Threat",
+    "targetCharacter": "Arenas of Echelon",
+    "secureLevel": "CRITICAL",
+    "date": "Cycle 845.01",
+    "rawText": "MASSIVE SPACE-TIME RIFT CONFIRMED. Dimension fissure detected above Echelon high-aether skyways, measuring approximately 1.4 kilometers and growing exponentially. Royal scientists suspect unauthorized activation of the Entropy Engine has breached regional space-time walls. Unrecognized seismic radar feeds match the ancient prehistoric Core-Drake within the portal depths. Elite tactical pilots must coordinate using high-vibration harpoon cables to bind the creature’s titanium wing pivots. City stability index is failing; hover structures face collapse. Ready all gravity anchors!"
+  },
+  {
+    "id": "entropy-engine-secrets",
+    "title": "Banned Audio Log: Entropy Project",
+    "source": "Director Vane’s Private Quarters",
+    "category": "Occult Technology",
+    "targetCharacter": "All Heroes",
+    "secureLevel": "TOP SECRET",
+    "date": "Unknown Cycle",
+    "rawText": "This is Director Vane speaking... The project has escaped containment. The Entropy Engine did not merely power the high grids—it synthesized a dimensional singularity linking Abyssum's molten foundries, Shibuya’s occult-chemical sewer grids, and Echelon's float stadiums into a recurring, unstable closed loop. The entities in the smog are feeding on the reality leakage. The three focal dimensions are collapsing. Mechanized frames are failing. The yellow lamps, the slag chorus, and the Sky-Core are fracturing simultaneously. We must seal the portal links before the loop restarts or we all dissolve."
+  }
+]
